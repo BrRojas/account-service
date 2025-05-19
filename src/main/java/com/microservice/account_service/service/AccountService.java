@@ -1,6 +1,6 @@
 package com.microservice.account_service.service;
 
-import com.microservice.account_service.DTO.AccountDTO;
+import com.microservice.account_service.DTO.AccountRequestDTO;
 import com.microservice.account_service.model.Account;
 import com.microservice.account_service.util.Status;
 import com.microservice.account_service.util.Type;
@@ -11,7 +11,7 @@ public interface AccountService {
 
     //Creación
 
-    Account saveAccount(AccountDTO accountDTO);
+    Account saveAccount(AccountRequestDTO accountRequestDTO);
 
     //Consulta
 
